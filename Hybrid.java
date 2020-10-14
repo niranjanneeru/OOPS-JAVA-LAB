@@ -1,7 +1,13 @@
 import studpack.Result;
+import studpack.Sports;
 
-public class Hybrid {
+public class Hybrid implements Sports{
+
+  public void displayGrade(){
+    System.out.println("I m Here");
+  }
     public static void main(String[] args) {
+
         System.out.println('\n');
         Result st1 = new Result();
         st1.displayGrade();
