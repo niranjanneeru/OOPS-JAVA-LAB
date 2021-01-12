@@ -6,13 +6,13 @@ public class Student {
     private String name;
 
     public Student(String name) {
-        this();
+//        this();
         this.name = name;
     }
 
-    public Student() {
-        this.id = ++total;
-    }
+//    public Student() {
+//        this.id = ++total;
+//    }
 
     public static int getTotal() {
         return total;
@@ -45,5 +45,9 @@ public class Student {
 
     public void setId(int id) {
         this.id = id;
+    }
+
+    public static void main(String[] args) {
+        new Student("Hello");
     }
 }
